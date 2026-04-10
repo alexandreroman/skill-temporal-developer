@@ -40,6 +40,8 @@ temporal server start-dev \
     --search-attribute OrderId=Keyword
 ```
 
+Alternatively, you can run Temporal as a Docker Compose service. See `references/core/docker-compose.md` for details.
+
 ## Worker Management Details
 
 ### Starting Workers
