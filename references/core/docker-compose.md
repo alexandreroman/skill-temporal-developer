@@ -6,12 +6,6 @@ Docker Compose provides a convenient way to run a Temporal development environme
 
 All examples in this guide work with both **Docker Compose** and **Podman Compose**. Simply replace `docker compose` with `podman compose` in all commands. The `compose.yaml` file format is the same for both runtimes.
 
-This approach is especially useful when:
-
-- You want a reproducible, self-contained dev environment
-- You are running multiple services (workers, frontends) that connect to Temporal
-- You want to simulate a production-like setup locally
-
 ## Minimal Compose File
 
 A minimal `compose.yaml` to run Temporal for development:
